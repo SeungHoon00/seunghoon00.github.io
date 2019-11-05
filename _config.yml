@@ -2,7 +2,7 @@
 title: Hoon
 description: 'SKK Univ RTCL'
 url: 'https://Seunghoon00.github.io'
-baseurl: ''
+baseurl: '/static_page'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
