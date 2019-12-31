@@ -1,0 +1,13 @@
+---
+title:  "Goals for 2020"
+date:   2020-01-01 02:39:40
+categories: [Academic]
+tags: [new year goals]
+---
+
+* Finishing the research paper 'Interlayer' [ ]
+* Studying mathmetics for machine learning [ ]
+* Trying out the book 'Advances in Financial machine learning' [ ]
+* Reading a book per month [ ]
+* Figuring out a new & legit research subject/idea [ ]
+* Renewing TEPS score [ ]
