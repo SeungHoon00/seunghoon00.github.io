@@ -5,4 +5,4 @@ categories: [Intro]
 tags: [introduction]
 ---
 
-Sungkyunkwan University C.S Major
+Sungkyunkwan University Computer Science, Economics Major
