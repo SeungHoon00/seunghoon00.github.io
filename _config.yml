@@ -1,8 +1,8 @@
 # Site settings
 title: Hoon
 description: 'Backend, SKK Univ RTCL'
-url: 'https://Seunghoon00.github.io'
-# baseurl: '/'
+url: 'https://seunghoon00.github.io'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
