@@ -1,8 +1,8 @@
-title: Footsteps of Seunghoon Lee
-description: Footsteps of Seunghoon Lee
-author: Seunghoon Lee
+title: Hamilton
+description: A minimal and beautiful Jekyll theme best for writing and note-taking.
+author: Shangzhi Huang
 avatar: /logo.png
-email: seunghoon.lee.0427@gmail.com
+email: ngzhio@gmail.com
 
 plugins:
   - jekyll-seo-tag
@@ -34,9 +34,10 @@ twitter:
   card: summary
 logo: logo.png
 social:
-  name: Seunghoon Lee
+  name: Shangzhi Huang
   links:
-    - https://github.com/seunghoon00
+    - https://twitter.com/ngzhio
+    - https://www.facebook.com/ngzhio
+    - https://github.com/ngzhio
 google_site_verification: u4WXQl0Eu66rsQo2kRdCNx
 lang: en
-skin: daylight
