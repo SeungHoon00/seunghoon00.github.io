@@ -78,7 +78,7 @@ figcaption {
 /**
  * Lists
  */
-ul[title]::before {
+ul.title-as-header::before {
     content: attr(title);
     /* then add some nice styling as needed, eg: */
     display: block;
