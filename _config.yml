@@ -1,34 +1,47 @@
-#Update all the sections by editing the data.yml file inside _data folder.
-
-# Site Settings
-title: My Resume
-url: 'http://webjeda.com'
-baseurl: '/online-cv' #change it according to your repository name
-description: A beautiful Jekyll theme for creating resume
-# Style will be applied only after restarting the build or serve. Just choose one of the options.
-theme_skin: blue # blue turquoise green berry orange ceramic
-chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
-
-# Tracker
-analytics: UA-83979019-1
-
-
-
-# Sass/SCSS
-sass:
-  sass_dir: _sass
-  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+# Site settings
+title: Henry Jekyll
 
 # Build settings
-compress-site: yes
+markdown: kramdown
+permalink: pretty
 
-encoding: "utf-8"
-compress_html: # - http://jch.penibelst.de/
-  clippings: all
-  ignore:
-    envs: development
+favicon: "/assets/img/temp_chem.jpg"
 
-# Development Settings
-port: 4000
-host: 0.0.0.0
-safe: false
+port: 3000
+url: http://localhost:3000
+
+sass:
+  sass_dir: assets/css
+  style: :nested
+
+# Add bibliography
+gems: ['jekyll/scholar']
+
+scholar:
+  style: assets/bib/_ieee-with-url.csl
+  locale: en
+
+  sort_by: none
+  order: ascending
+
+  group_by: none
+  group_order: ascending
+
+  source: assets/bib
+  bibliography: _mybib.bib
+  bibliography_template: "{{reference}}"
+
+  replace_strings: true
+  join_strings:    true
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+  - HTML
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
