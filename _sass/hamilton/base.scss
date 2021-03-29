@@ -78,15 +78,10 @@ figcaption {
 /**
  * Lists
  */
-ul, ol {
-  margin: 0;
-}
-
-li {
-  margin: 0;
-  padding: 0;
-  margin-bottom: 0;
-}
+ul, li, ol { list-style-type: none;
+        list-style-position:inside;
+        margin:0;
+        padding:0; }
 
 /**
  * Links
