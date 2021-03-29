@@ -42,4 +42,7 @@ layout: default
 
   {%- endif -%}
   
+  {%- if jekyll.environment == "production" and site.disqus -%}
+    <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
+  {%- endif -%}
 </div>
