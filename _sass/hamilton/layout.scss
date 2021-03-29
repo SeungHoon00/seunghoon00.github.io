@@ -105,8 +105,8 @@
     li a {
       line-height: $base-line-height * $base-font-size * 1.15;
       display: inline;
-      padding: 0px;
-      margin: 0px;
+      padding: 5px 10px;
+      margin-left: auto;
     }
 
     .dropdown-content {
