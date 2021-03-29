@@ -1,43 +1,34 @@
-# Site settings
-title: Hoon
-description: 'Backend, SKK Univ RTCL'
-url: 'https://seunghoon00.github.io'
-baseurl: ''
-# google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+#Update all the sections by editing the data.yml file inside _data folder.
 
-author:
-  name: 'Seunghoon Lee'
-  email: seunghoon.lee.0427@gmail.com
-#twitter_username: joshgerdes
-#facebook_username: joshgerdes
-  github_username:  Seunghoon00
-#linkedin_username:  joshgerdes
+# Site Settings
+title: My Resume
+url: 'http://webjeda.com'
+baseurl: '/online-cv' #change it according to your repository name
+description: A beautiful Jekyll theme for creating resume
+# Style will be applied only after restarting the build or serve. Just choose one of the options.
+theme_skin: blue # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
-defaults:
-  -
-    scope:
-      path: ''
-      type: 'posts'
-    values:
-        layout: 'post'
+# Tracker
+analytics: UA-83979019-1
+
+
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
-destination: _site
-paginate: 10
-permalink: /:year/:title/
-markdown: kramdown
-highlighter: rouge
+compress-site: yes
 
-sass:
-    sass_dir: _sass
-    style: compressed
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
 
-kramdown:
-  # use Github Flavored Markdown
-  input: GFM
-  # do not replace newlines by <br>s
-  hard_wrap: false
-
-plugins: ['jekyll-paginate']
-exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+# Development Settings
+port: 4000
+host: 0.0.0.0
+safe: false
