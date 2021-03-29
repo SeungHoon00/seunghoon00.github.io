@@ -12,14 +12,14 @@ layout: default
     {% assign posts = site.posts %}
   {% endif %}
 
-  <div>
-  <ul title="Fruits?">
-    <li>Apples</li>
-    <li>Pears</li>
-    <li>Orange</li>
-  </ul>
-
-  </div>
+  <figure>
+    <figcaption>Fruit</figcaption>
+    <ul>
+        <li>Apple</li>
+        <li>Pear</li>
+        <li>Orange</li>
+    </ul>
+  </figure>
   {%- if jekyll.environment == "production" and site.disqus -%}
     <script id="dsq-count-scr" src="//{{ site.disqus }}.disqus.com/count.js" async></script>
   {%- endif -%}
